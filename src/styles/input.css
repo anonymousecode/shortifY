@@ -1,0 +1,29 @@
+.input{
+    display: flex;
+    justify-content: center;
+}
+.outline{
+    display: grid;
+    justify-content: center;
+    width: 1270px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    margin: 10px;
+}
+
+h3{
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 90%;
+    width: 1198px;
+    height: 181px;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    resize: none;
+    padding: 10px;
+}

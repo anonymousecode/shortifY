@@ -1,0 +1,37 @@
+/* src/components/Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Ubuntu", serif;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
